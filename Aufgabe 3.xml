@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rezept id="77">
+	<title>Lenchen’s Schokoladenkuchen</title>
+	<bild name="Schokoladenkuchen"/>
+	
+	<bilder>
+		<pic></pic>
+		<zurück></zurück>
+		<stop></stop>
+		<nächstes></nächstes>
+	</bilder>
+	<drucken></drucken>
+	<speichern></speichern>
+	<speichern_unter></speichern_unter>
+	<empfehlen></empfehlen>
+	<fotos_hochladen></fotos_hochladen>
+	
+	
+	<zutaten>
+		<umrechnen>
+			<zutat menge="200" einheit="g" name="Butter"/>
+			<zutat menge="200" einheit="g" name="Zucker"/>
+			<zutat menge="200" einheit="g" name="Schokolade, Blockschokolade"/>
+			<zutat menge="120" einheit="g" name="Mehl"/>
+			<zutat menge="0,5" einheit="TL" name="Backpulver"/>
+			<zutat menge="1" einheit=Ppkt." name="Vanillezucker"/>
+			<zutat menge="4" einheit="" name="Eier"/>
+			<portionen wert="16"/>
+		</umrechnen>
+	</zutaten>
+	
+	<zubereitung>
+		<arbeitszeit zeit= "1" einheit= "Std"/>
+		<schwierigkeitsgrad option= "normal"/>
+		<brennwert_p_P menge="295" einheit="kcal"/>
+		<anleitung>Butter und Schokolade im Wasserbad schmelzen. Eier trennen. Eiweiß steif schlagen. Eigelbe, Zucker und Vanillezucker verrühren. Geschmolzene Butter-Schokomasse hinzufügen und mischen. Mehl mit dem Backpulver in die Masse sieben und zum Schluss die steifen Eiweiße vorsichtig unterheben. In eine gut gefettete Form geben. 
+					Bei 180°Grad 40 – 50 Minuten backen.</anleitung>
+	</zubereitung>
+		<share_buttons>
+			<fb_like></fb_like>
+			<google_plus></google_plus>
+			<twitter></twitter>
+			<email></email>
+		</share_buttons>
+	<kommentare>
+		<kommentar id="1" author="swieselchen" date="07.02.2002">Habe Deinen Kuchen gestern gebacken (kleine Abwandlung: statt Blockschokolade hatte ich nur Kuvertüre, zartbitter und ich habe noch etwas Rumaroma und eine Prise Salz dazugegeben) mein LAG war total begeistert. Ich übrigends auch, super Rezept.</kommentar>
+		<neuer_kommentar></neuer_kommentar>
+		<kommentar_beantworten></kommentar_beantworten>
+		<kommentar_hilfreich>
+			<gut></gut>
+			<schlecht></schlecht>
+		</kommentar_hilfreich>
+	</kommentare>
+	
+</rezept>

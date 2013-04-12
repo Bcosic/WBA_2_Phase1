@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<formular>
+
+<description>Formular Gruppenanmeldung</description>
+	<gruppe id="1">
+	<gruppenleiter> 		<!-- einmalig -->
+		<first_name>
+			<text>Hans</text>
+		</first_name>
+		<last_name>
+			<text>Werner</text>
+		</last_name>
+		<email>
+			<text>Hans.werner@gmx.de</text>
+		</email>
+		<b_day>
+			<value>19.08.1977</value>
+		</b_day>
+			<erfahrung option="Amateur"/>
+			<schlagzeug option="vorhanden" />
+		<anmerkungen>
+			<text>alles super hier</text>
+		</anmerkungen>
+	</gruppenleiter>
+	
+	<mitglied>		<!-- mehrmalig -->
+	<first_name>
+			<text>Sven</text>
+		</first_name>
+		<last_name>
+			<text>Olm</text>
+		</last_name>
+		<email>
+			<text>Sven.Olm@aol.com</text>
+		</email>
+		<b_day>
+			<value>18.03.2003</value>
+		</b_day>
+			<erfahrung option="Profi"/>
+			<schlagzeug option="vorhanden" />
+	</mitglied>
+	</gruppe>
+	<agb></agb>	
+	
+</formular>

@@ -1,0 +1,69 @@
+
+<?xml version="1.0" encoding="utf-8"?> 
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"> 
+<xs:element name="rezept"> 
+<xs:complexType> 
+<xs:sequence> 
+<xs:element name="title" type="xs:string"/> 
+<xs:element name="autor" type="xs:string"/> 
+<xs:element name="personenAnzahl" type="xs:float" minOccurs="0" /> 
+<xs:element name="bild" minOccurs="0" maxOccurs="5"> 
+<xs:complexType> 
+<xs:attribute name="name" type="xs:string" /> 
+<xs:attribute name="description" type="xs:string" /> 
+<xs:attribute name="url" type="xs:string" /> 
+</xs:complexType> 
+</xs:element> 
+<xs:element name="zutaten" minOccurs="1" maxOccurs="unbounded"> 
+<xs:complexType> 
+<xs:sequence>
+<xs:element name="zutat" minOccurs="1" maxOccurs="unbounded"> 
+<xs:complexType> 
+<xs:attribute name="menge" type="xs:float" /> 
+<xs:attribute name="einheit" type="xs:string" /> 
+<xs:attribute name="name" type="xs:string" /> 
+</xs:complexType> 
+</xs:element> 
+</xs:sequence> 
+</xs:complexType> 
+</xs:element> 
+<xs:element name="zubereitung"> 
+<xs:complexType> 
+<xs:sequence> 
+<xs:element name="step" minOccurs="1" maxOccurs="unbounded"> 
+<xs:complexType> 
+<xs:attribute name="id" type="xs:integer" /> 
+</xs:complexType> 
+</xs:element> 
+</xs:sequence> 
+</xs:complexType> 
+</xs:element> 
+<xs:element name="kommentare" minOccurs="0"> 
+<xs:complexType> 
+<xs:sequence> 
+<xs:element name="kommentar" minOccurs="0" maxOccurs="unbounded"> 
+<xs:complexType> 
+<xs:attribute name="id" type="xs:integer" /> 
+<xs:attribute name="author" type="xs:string" /> 
+<xs:attribute name="date" type="xs:date" /> 
+</xs:complexType> 
+</xs:element> 
+</xs:sequence> 
+</xs:complexType> 
+</xs:element> 
+<xs:element name="related" minOccurs="0"> 
+<xs:complexType> 
+<xs:sequence> 
+<xs:element name="relRezept" minOccurs="0" maxOccurs="unbounded"> 
+<xs:complexType> 
+<xs:attribute name="ref" type="xs:integer" /> 
+<xs:attribute name="url" type="xs:string" /> 
+</xs:complexType> 
+</xs:element> 
+</xs:sequence> 
+</xs:complexType> 
+</xs:element> 
+</xs:sequence> 
+</xs:complexType> 
+</xs:element> 
+</xs:schema>
